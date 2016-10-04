@@ -31,22 +31,3 @@ int main()
 //#include <cerrno>
 //#include <cstring>
 //
-//int main()
-//{
-//	struct stat fileInfo;
-//
-//	if (stat("D:\\1.txt", &fileInfo) != 0)
-//	{  // Use stat( ) to get the info
-//		return(EXIT_FAILURE);
-//	}
-//
-//
-//	std::cout << "Created       : " <<
-//		std::ctime(&fileInfo.st_ctime);         // Creation time
-//
-//
-//	std::cout << "Modified      : " <<
-//		std::ctime(&fileInfo.st_mtime);         // Last mod time
-//
-//	return 0;
-//}
